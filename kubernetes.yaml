@@ -15,8 +15,8 @@ spec:
 
     spec:
       containers:
-        - name: repo2
-          image: docker.io/library/expensetracker
+        - name: j007
+          image: docker.io/jaihindh07/expensetracker
           ports:
             - containerPort: 5000
               protocol: TCP
