@@ -1,17 +1,17 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: flaskExpenseTracker
+  name: flask-expense-tracker
 
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: flaskExpenseTracker
+      app: flask-expense-tracker
   template:
     metadata:
       labels:
-        app: flaskExpenseTracker
+        app: flask-expense-tracker
 
     spec:
       containers:
